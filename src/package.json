@@ -1,0 +1,31 @@
+{
+  "name": "MasaiJade",
+  "version": "0.0.0",
+  "description": "PreLaunch site for women empowerment project!",
+  "main": "main.js",
+  "dependencies": {
+    "react-dom": "~0.14.7",
+    "watchify": "~3.7.0",
+    "react": "~0.14.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-react": "^3.1.0"
+  },
+  "scripts": {
+    "watch-js": "watchify js/main.js -o static/bundle.js -dv",
+    "build-js": "browserify js/main.js > static/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masaijade/masaijade.git"
+  },
+  "author": "wanha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masaijade/masaijade/issues"
+  },
+  "homepage": "https://github.com/masaijade/masaijade"
+}

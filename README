@@ -1,0 +1,8 @@
+PreLaunch site for women empowerment project!
+
+
+Tools: 
+	-browserify to bundle js modules (-d for debug)
+	-watchify to monitor js changes and update bundle.js when src changes
+	-beef to serve locally, live update browser page 
+	-reactify converts .jsx into .js with 'watchify -t reactify js/* -vd  -o static/bundle.js'
